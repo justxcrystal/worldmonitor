@@ -1,0 +1,138 @@
+{
+  "comment": "/pro subapp bundle-size budgets (#7119). Gated on raw bytes: per chunk ±max(2048 B, 2%), total ±max(16384 B, 0.25%). Tolerance fields here are informational — the gate enforces its own constants and rejects a snapshot that disagrees. Regenerate after \"npm run build:pro && VITE_VARIANT=full ./node_modules/.bin/vite build\" with: npm run bundle:budgets:pro",
+  "surface": "pro",
+  "variant": "pro",
+  "tolerancePct": 2,
+  "toleranceBytes": 2048,
+  "totalTolerancePct": 0.25,
+  "totalToleranceBytes": 16384,
+  "total": {
+    "raw": 5068712
+  },
+  "chunks": {
+    "ar": {
+      "raw": 59544,
+      "files": 1
+    },
+    "bg": {
+      "raw": 68457,
+      "files": 1
+    },
+    "clerk": {
+      "raw": 2997735,
+      "files": 1
+    },
+    "cs": {
+      "raw": 43997,
+      "files": 1
+    },
+    "de": {
+      "raw": 44013,
+      "files": 1
+    },
+    "el": {
+      "raw": 70426,
+      "files": 1
+    },
+    "es": {
+      "raw": 46094,
+      "files": 1
+    },
+    "fa": {
+      "raw": 50961,
+      "files": 1
+    },
+    "fr": {
+      "raw": 47884,
+      "files": 1
+    },
+    "hi": {
+      "raw": 76486,
+      "files": 1
+    },
+    "hr": {
+      "raw": 43430,
+      "files": 1
+    },
+    "hu": {
+      "raw": 47845,
+      "files": 1
+    },
+    "index": {
+      "raw": 535692,
+      "files": 2
+    },
+    "it": {
+      "raw": 43833,
+      "files": 1
+    },
+    "ja": {
+      "raw": 51976,
+      "files": 1
+    },
+    "ko": {
+      "raw": 45973,
+      "files": 1
+    },
+    "nl": {
+      "raw": 42722,
+      "files": 1
+    },
+    "pl": {
+      "raw": 44795,
+      "files": 1
+    },
+    "pt": {
+      "raw": 45112,
+      "files": 1
+    },
+    "ro": {
+      "raw": 45636,
+      "files": 1
+    },
+    "ru": {
+      "raw": 69030,
+      "files": 1
+    },
+    "sentry": {
+      "raw": 87066,
+      "files": 1
+    },
+    "sv": {
+      "raw": 42616,
+      "files": 1
+    },
+    "sw": {
+      "raw": 44955,
+      "files": 1
+    },
+    "th": {
+      "raw": 87359,
+      "files": 1
+    },
+    "tr": {
+      "raw": 45293,
+      "files": 1
+    },
+    "uk": {
+      "raw": 51829,
+      "files": 1
+    },
+    "vi": {
+      "raw": 54123,
+      "files": 1
+    },
+    "welcome": {
+      "raw": 55797,
+      "files": 1
+    },
+    "zh": {
+      "raw": 38991,
+      "files": 1
+    },
+    "zh-TW": {
+      "raw": 39042,
+      "files": 1
+    }
+  }
+}
